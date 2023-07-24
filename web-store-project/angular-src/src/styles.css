@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  width: 100 vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.router-outlet-content::before {
+  display: block;
+  content: '';
+  margin-top: 10vw;
+}
+
+nav {
+  position: fixed-top;
+  top: 0;
+}
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+  width: 100%;
+}
+
+.shoppingcart {
+  padding: 30px;
+  width: 70vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  text-align: left;
+}
+.shoppingcart th {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+}
+.shoppingcart td {
+  padding: 5px;
+}
+
+.input {
+  font-size: 16px;
+}

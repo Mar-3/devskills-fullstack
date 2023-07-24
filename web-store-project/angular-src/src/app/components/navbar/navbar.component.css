@@ -1,0 +1,8 @@
+.btn-round {
+  border-radius: 100%;
+  height:80px;
+  width: 80px
+}
+.btn-round img {
+  align-self: center;
+}

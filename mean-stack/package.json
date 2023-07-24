@@ -1,0 +1,26 @@
+{
+  "name": "mean-stack",
+  "version": "0.0.1",
+  "description": "Mean stack exercise project",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Mar-3",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
